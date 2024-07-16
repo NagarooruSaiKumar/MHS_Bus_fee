@@ -1,0 +1,41 @@
+
+
+<style>
+    .container{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        height: 250;
+        width: 270px;
+        position: fixed;
+        left: 20%;
+        top: 15%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+</style>
+
+
+<div class="container">
+    <div class="pending_fee">
+        <h3>
+            Pending Fee : <%=pending %>
+        </h3>
+    </div>
+    <div class="paid_fee">
+        <h3>
+            Paid Fee : <%=paid %>
+        </h3>
+    </div>
+    <div class="total_fee">
+        <h3>
+            Total Fee : <%=total %>
+        </h3>
+    </div>
+    <div class="payment_info">
+        <h3>
+            Payment Detais : <%=series %>
+        </h3>
+    </div>
+</div>
