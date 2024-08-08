@@ -41,7 +41,7 @@ app.use(express.static(__dirname +'/views'));
 //app.set('view engine','ejs');
 
 app.get("/", (req, res) => {
-    res.render("login.ejs");
+    res.render("/views/login.ejs");
     console.log(res.body["Id_feedback"]);
     console.log(res.body["password_feedback"]);
 });
